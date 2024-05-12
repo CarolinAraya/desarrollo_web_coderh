@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+img {
+    max-width: 400px;
+    border-radius: 7px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-img {
+    padding: 10px;
+}
+
+.img-row-wrap {
+  flex-flow: row wrap;
+}
+
+.backgroundGreen {
+  background-color: aquamarine;
+}
+
+#headerIlustraciones {
+  background-color: #e5e5e5;
+}
+
+#headerMusica {
+  background-color: orange;
+}
