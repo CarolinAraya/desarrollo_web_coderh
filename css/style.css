@@ -11,7 +11,20 @@ img {
     border-radius: 7px;
 }
 
-section {
+#section-container {
+    color: black;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    height: 180px;
+    display: flex;
+    align-items: center
+}
+
+.image-gallery-secction {
   display: flex;
   flex-wrap: wrap;
 }
