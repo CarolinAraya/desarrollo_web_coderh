@@ -21,7 +21,12 @@ img {
 .section {
     height: 180px;
     display: flex;
-    align-items: center
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-menu {
+    padding: 15px;
 }
 
 .image-gallery-secction {
@@ -29,7 +34,7 @@ img {
   flex-wrap: wrap;
 }
 
-.container-img {
+.container-content {
     padding: 10px;
 }
 
@@ -47,4 +52,10 @@ img {
 
 #headerMusica {
   background-color: orange;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(4,150px);
+    grid-template-columns: 1fr 1fr 1fr;
 }
