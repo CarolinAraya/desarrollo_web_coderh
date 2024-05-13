@@ -18,6 +18,14 @@ img {
     justify-content: center;
 }
 
+li {
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #a0d4ff;
+}
+
 .section {
     height: 180px;
     display: flex;
@@ -29,6 +37,10 @@ img {
     padding: 15px;
 }
 
+.box-model-general {
+  padding: 20px;
+}
+
 .image-gallery-secction {
   display: flex;
   flex-wrap: wrap;
@@ -36,6 +48,10 @@ img {
 
 .container-content {
     padding: 10px;
+}
+
+.container-section {
+  display: flex;
 }
 
 .img-row-wrap {
